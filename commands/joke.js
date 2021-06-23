@@ -4,7 +4,7 @@ const sleep = delay => new Promise(resolve => setTimeout(resolve, delay)) // esl
 module.exports = {
   name: 'joke',
   description: 'Raconte une blague au hasard',
-  async execute(message, client) {
+  async execute(message) {
     const response = await fetch('https://www.blagues-api.fr/api/random', {
       method: 'get',
       headers: { 'Content-type': 'application/json', Authorization: `Bearer ${process.env.BLAGUES_TOKEN}` },

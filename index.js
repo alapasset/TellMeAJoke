@@ -1,7 +1,7 @@
 const fs = require('fs')
 const Discord = require('discord.js')
 const Client = require('./client/client.js')
-const config = require('dotenv').config()
+require('dotenv').config()
 
 const client = new Client('%')
 
