@@ -7,7 +7,7 @@ module.exports = {
   async execute(message, client) {
     const response = await fetch('https://www.blagues-api.fr/api/random', {
       method: 'get',
-      headers: { 'Content-type': 'application/json', Authorization: `Bearer ${client.config.jokeKey}` },
+      headers: { 'Content-type': 'application/json', Authorization: `Bearer ${process.env.BLAGUES_TOKEN}` },
     })
 
     const joke = await response.json()
