@@ -1,0 +1,32 @@
+{
+  "name": "tellmeajoke",
+  "version": "1.0.0",
+  "description": "A bot to say a joke :D",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "xo ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alapasset/TellMeAJoke.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "joke"
+  ],
+  "author": "Lapasset Alexis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alapasset/TellMeAJoke/issues"
+  },
+  "homepage": "https://github.com/alapasset/TellMeAJoke#readme",
+  "devDependencies": {
+    "xo": "^0.40.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "node-fetch": "^2.6.1"
+  }
+}
