@@ -1,10 +1,14 @@
-# TellMeAJoke
+# Tell Me A Joke
 
-## Un bot qui te racontera des blagues
+## A new bot that will tell you jokes and make all your members laugh
 
-### Commandes
+### Commands
 
-* %help : Donne les commandes du bot
-* %joke: Raconte une blague au hasard
+Prefix : ```%```
 
-Merci à [blagues-api](https://www.blagues-api.fr/)
+* ```joke``` : Tell a random joke
+* ```language``` : Set bot language for jokes (cs, de, en, es, fr, pt)
+* ```help``` : Give all commands informations
+* new commands soon / Bientôt de nouvelles commandes ...
+
+Thank you to [jokeapi](https://jokeapi.dev/)
